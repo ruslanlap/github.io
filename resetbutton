@@ -1,0 +1,5 @@
+* {
+	border: medium none;
+	border-spacing: 0;
+	color: #26589f;
+}

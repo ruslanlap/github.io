@@ -1,0 +1,147 @@
+* {
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	color: black;
+}
+h1 h2 h3 h4 h5 h6 {
+	margin: 0;
+	padding: 0;
+}
+header ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.nav a {
+	margin: 0;
+	padding-right: 40px;
+}
+.container {
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1215px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav ul {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.main-container {
+	display: flex;
+	width: 1215px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-text {
+	width: 715px;
+}
+.container-text div:nth-of-type(1) {
+	font-size: 72px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: left;
+	color: #ff8a56;
+	margin-top: 117px;
+}
+.container-text div:nth-of-type(2) {
+	font-size: 72px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-align: left;
+	line-height: 82px;
+}
+.container-text div:nth-of-type(3) {
+	font-family: Roboto;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #666666;
+	width: 547px;
+	margin-top: 27px;
+}
+.main-img {
+	margin-top: 70px;
+}
+.button {
+	margin-top: 38px;
+	display: flex;
+	gap: 40px;
+}
+.button > button + button {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	border-spacing: 0;
+	color: black;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.42rem;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	cursor: pointer;
+}
+.button > button {
+	height: 58px;
+	width: 151px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+
+	background-color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0em;
+	color: white;
+
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0;
+	cursor: pointer;
+	text-align: center;
+}
+button i {
+	margin-left: 10px;
+	color: #ff8a56;
+}
+.button_book:hover {
+	background-color: none;
+	color: #ff8a56;
+}
+.button_download:hover {
+	color: #ff8a56;
+}
+.container-section {
+	width: 862px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logoipsum {
+	width: 862px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 45px;
+}
